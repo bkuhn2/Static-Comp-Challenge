@@ -1,0 +1,114 @@
+* {
+  border-style: solid;
+  border-color: #e91e63;
+  border-width: 1px;
+}
+
+header {
+  background-color: aqua;
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.upper-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 13px;
+}
+
+.lower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+  filter: brightness(0);
+}
+
+.user-arrow {
+  width: 14px;
+  height: 15px;
+}
+
+.user-name,
+.user-arrow,
+.user-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.nav-area, 
+.nav-element,
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-area {
+  width: 735px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav-element {
+  width: 174px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid-link-nav {
+  width: 275px;
+}
+
+.dragon,
+.site-name,
+.share-icon,
+.list-icon,
+.vid-link-icon,
+.nav-links {
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+
+.dragon {
+  height: 57px;
+  width: 63px;
+}
+
+.site-name {
+  font-size: 2.5em;
+
+}
+
+.share-icon,
+.list-icon,
+.vid-link-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.nav-links {
+  margin-left: 10px;
+  font-size: 1.2em;
+}
+
+.logo {
+  margin-right: 27px;
+}
