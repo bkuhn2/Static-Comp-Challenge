@@ -1,0 +1,438 @@
+/* * {
+  border-style: solid;
+  border-color: #e91e63;
+  border-width: 1px;
+} */
+
+body {
+  background: rgb(187,87,138);
+  background: linear-gradient(112deg, rgba(187,87,138,1) 0%, rgba(254,95,95,1) 44%, rgba(227,184,125,1) 100%);
+  min-width: 1553px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  margin: 0px;
+}
+
+
+/* HEADER AREA ------------------------------------------------------*/
+header {
+  background-color: aqua;
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+  color: rgb(244, 238, 230);
+  background: linear-gradient(0deg, rgba(29,29,29,1) 0%, rgba(27,26,26,1) 39%, rgba(22,22,22,1) 100%);
+}
+
+.upper-header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 25px;
+  margin-top: 13px;
+}
+
+.lower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+  filter: invert(80%) sepia(7%) saturate(0%) hue-rotate(160deg) brightness(69%) contrast(97%);
+}
+
+.user-name,
+.user-arrow,
+.user-icon {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+  font-family: 'Averia Serif Libre';
+  color: rgb(111, 227, 188);
+
+}
+
+.user-arrow {
+  width: 14px;
+  height: 13px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  filter: invert(90%) sepia(5%) saturate(3535%) hue-rotate(98deg) brightness(88%) contrast(102%);
+}
+
+.nav-area, 
+.nav-element,
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -5px;
+}
+
+.nav-area {
+  width: 735px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: -37px;
+}
+
+.nav-element {
+  width: 174px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.vid-link-nav {
+  width: 275px;
+}
+
+.dragon,
+.site-name,
+.share-icon,
+.list-icon,
+.vid-link-icon,
+.nav-links {
+  margin-top: 39px;
+  margin-bottom: 20px;
+}
+
+
+.dragon {
+  height: 57px;
+  width: 63px;
+  filter: invert(79%) sepia(35%) saturate(1335%) hue-rotate(310deg) brightness(100%) contrast(98%);
+}
+
+.site-name {
+  font-size: 4.5em;
+  font-family: 'Pirata One';
+  margin-right: 15px;
+}
+
+.share-icon,
+.list-icon,
+.vid-link-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.share-icon {
+  filter: invert(82%) sepia(83%) saturate(3225%) hue-rotate(358deg) brightness(104%) contrast(104%);
+}
+.list-icon {
+  filter: invert(.6);
+}
+
+.nav-links {
+  margin-left: 10px;
+  font-size: 1.2em;
+  font-family: 'Quattrocento Sans';
+}
+
+.logo {
+  margin-right: 30px;
+}
+
+/* MAIN AREA ------------------------------------------------------*/
+
+.main-area-title {
+  font-size: 3em;
+  margin-left: 155px;
+  font-family: 'Averia Serif Libre';
+}
+
+.card-area {
+  display: grid;
+  gap: 25px;
+  grid-auto-flow: column;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.card-arrow {
+  width: 60px;
+  height: 60px;
+  border-color: #e91e63;
+  filter: invert(1);
+  margin: 7px;
+  margin-left: 11px;
+}
+
+.views-text-box {
+  margin-right: 11px;
+  margin-top: 5px;
+}
+
+.views-text {
+  margin: 4px;
+  font-size: 1em;
+  color: rgb(245, 237, 227);
+  font-family: 'Quattrocento Sans';
+}
+
+.views-numb {
+  margin: 4px;
+  margin-top: -5px;
+  text-align: right;
+  font-size: 2.9em;
+  color: rgb(245, 237, 227);
+  font-family: 'Quattrocento Sans';
+}
+
+.card {
+  width: 355px;
+  height: 530px;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  border-radius: 5px;
+  background: rgb(29,29,29);
+  background: linear-gradient(0deg, rgba(29,29,29,1) 0%, rgba(50,50,50,1) 70%, rgba(70,70,70,1) 100%);
+  box-shadow: 5px 4px 6px 0px #07070778;
+}
+
+.card-pic-1 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-1.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-2{
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-2.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-3 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-3.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-4 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-4.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-5 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-5.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-6 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-6.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-7 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-7.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.card-pic-8 {
+  width: 355px;
+  height: 200px;
+  border-radius: 5px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-8.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.card-text-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: rgb(245, 237, 227)
+}
+
+.card-name {
+  margin-left: 28px;
+  margin-bottom: 2px;
+  margin-top: 14px;
+  font-size: 1.6em;
+  font-family: 'Averia Serif Libre';
+}
+
+.card-date {
+  color: rgb(148, 147, 147);
+  margin-left: 28px;
+  margin-top: 3px;
+  margin-bottom: 20px;
+  font-size: .9em;
+  font-family: 'Averia Serif Libre';
+}
+
+
+.card-link-area {
+  background-color: black;
+  border-radius: 6px;
+  height: 73px;
+  width: 297px;
+  margin-left: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  overflow-wrap: anywhere;
+}
+
+.card-link {
+  margin-left: 18px;
+  margin-right: 15px;
+  color: rgb(64, 191, 149);
+  text-align: left;
+  font-family: 'Averia Serif Libre';
+
+}
+
+.card-heading {
+  margin-left: 28px;
+  margin-bottom: 2px;
+  margin-top: 18px;
+  font-size: 0.9em;
+  font-family: 'Quattrocento Sans';
+  color: rgb(148, 147, 147);
+}
+
+.card-playlist-name {
+  margin-left: 28px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  font-size: 1.2em;
+  font-family: 'Averia Serif Libre', bold;
+  color: rgba(245, 237, 227, 0.925)
+
+}
+
+.attachment-count {
+  margin-left: 28px;
+  margin-top: -2px;
+  font-size: 2.9em;
+  text-align: start;
+  color: rgb(251, 255, 0);
+  font-family: 'Quattrocento Sans';
+}
+
+
+
+/* Hover Over -----------------------------------------------------------*/
+
+.user-name, 
+.user-arrow,
+.nav-links,
+.share-icon,
+.list-icon,
+.vid-link-icon {
+  cursor: pointer;
+}
