@@ -380,7 +380,11 @@ header {
   height: 73px;
   width: 297px;
   margin-left: 28px;
-  overflow-wrap: break-word;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  overflow-wrap: anywhere;
 }
 
 .card-link {
@@ -418,4 +422,17 @@ header {
   text-align: start;
   color: rgb(251, 255, 0);
   font-family: 'Quattrocento Sans';
+}
+
+
+
+/* Hover Over -----------------------------------------------------------*/
+
+.user-name, 
+.user-arrow,
+.nav-links,
+.share-icon,
+.list-icon,
+.vid-link-icon {
+  cursor: pointer;
 }
