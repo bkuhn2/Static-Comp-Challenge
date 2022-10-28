@@ -4,6 +4,9 @@
   border-width: 1px;
 }
 
+
+
+/* HEADER AREA ------------------------------------------------------*/
 header {
   background-color: aqua;
 }
@@ -111,4 +114,127 @@ header {
 
 .logo {
   margin-right: 27px;
+}
+
+/* MAIN AREA ------------------------------------------------------*/
+
+.main-area-title {
+  font-size: 2.5em;
+}
+
+.card-area {
+  display: grid;
+  gap: 15px;
+  grid-auto-flow: column;
+  justify-content: center;
+}
+
+.card {
+  width: 355px;
+  height: 530px;
+  box-shadow: black;
+}
+.card-pic-1 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-1.jpg);
+  background-size: cover;
+}
+
+.card-pic-2{
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-2.jpg);
+  background-size: cover;
+}
+
+.card-pic-3 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-3.jpg);
+  background-size: cover;
+}
+
+.card-pic-4 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-4.jpg);
+  background-size: cover;
+}
+
+.card-pic-5 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-5.jpg);
+  background-size: cover;
+}
+
+.card-pic-6 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-6.jpg);
+  background-size: cover;
+}
+
+.card-pic-7 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-7.jpg);
+  background-size: cover;
+}
+
+.card-pic-8 {
+  width: 355px;
+  height: 200px;
+  background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-8.jpg);
+  background-size: cover;
+}
+
+.item-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item-5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-6 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-7 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.item-8 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
