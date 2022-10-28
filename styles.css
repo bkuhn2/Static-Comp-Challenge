@@ -1,13 +1,18 @@
-* {
+/* * {
   border-style: solid;
   border-color: #e91e63;
   border-width: 1px;
-  background-color: ;
-}
+} */
 
 body {
   background: rgb(187,87,138);
   background: linear-gradient(112deg, rgba(187,87,138,1) 0%, rgba(254,95,95,1) 44%, rgba(227,184,125,1) 100%);
+  min-width: 1553px;
+  background-attachment: fixed;
+  border-style: solid;
+  border-color: black;
+  border-width: 6px;
+  margin: 0px;
 }
 
 
@@ -19,6 +24,8 @@ header {
 .page-head {
   display: flex;
   flex-direction: column;
+  color: rgb(244, 238, 230);
+  background: linear-gradient(0deg, rgba(29,29,29,1) 0%, rgba(27,26,26,1) 39%, rgba(22,22,22,1) 100%);
 }
 
 .upper-header {
@@ -39,12 +46,14 @@ header {
 .user-icon {
   width: 20px;
   height: 20px;
-  filter: brightness(0);
+  filter: invert(1);
 }
 
 .user-arrow {
   width: 14px;
   height: 15px;
+  filter: invert(.8);
+
 }
 
 .user-name,
@@ -98,6 +107,7 @@ header {
 .dragon {
   height: 57px;
   width: 63px;
+  filter: invert(1);
 }
 
 .site-name {
@@ -110,6 +120,11 @@ header {
 .vid-link-icon {
   height: 20px;
   width: 20px;
+}
+
+.share-icon,
+.list-icon {
+  filter: invert(.7);
 }
 
 .nav-links {
@@ -125,11 +140,12 @@ header {
 
 .main-area-title {
   font-size: 2.5em;
+  margin-left: 182px;
 }
 
 .card-area {
   display: grid;
-  gap: 15px;
+  gap: 25px;
   grid-auto-flow: column;
   justify-content: center;
 }
@@ -143,16 +159,36 @@ header {
   margin-left: 11px;
 }
 
+.views-text-box {
+  margin-right: 11px;
+  margin-top: 5px;
+}
+
+.views-text {
+  margin: 4px;
+  font-size: 1em;
+  color: antiquewhite;
+
+}
+
+.views-numb {
+  margin: 4px;
+  margin-top: -5px;
+  text-align: right;
+  font-size: 2.9em;
+  color: antiquewhite;
+}
+
 .card {
   width: 355px;
   height: 530px;
   border-style: solid;
   border-color: black;
-  border-width: 2px;
+  border-width: 3px;
   border-radius: 5px;
   background: rgb(29,29,29);
   background: linear-gradient(0deg, rgba(29,29,29,1) 0%, rgba(50,50,50,1) 70%, rgba(70,70,70,1) 100%);
-  box-shadow: 5px 4px 6px 0px #888888b0;
+  box-shadow: 5px 4px 6px 0px #07070778;
 }
 
 .card-pic-1 {
@@ -162,6 +198,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-1.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-2{
@@ -171,6 +210,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-2.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-3 {
@@ -180,6 +222,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-3.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-4 {
@@ -189,6 +234,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-4.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-5 {
@@ -198,6 +246,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-5.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-6 {
@@ -207,6 +258,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-6.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-7 {
@@ -216,6 +270,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-7.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .card-pic-8 {
@@ -225,6 +282,9 @@ header {
   background-image: linear-gradient(0deg, rgba(36, 35, 35, 0.6), rgba(49, 49, 49, 0.36)), url(./assets/card-8.jpg);
   background-size: cover;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .item-1 {
